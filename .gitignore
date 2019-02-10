@@ -1,0 +1,15 @@
+target
+*.class
+*.jar
+*.iml
+*.idea
+
+/secret
+.env
+
+# Trash
+*~
+*.sw[po]
+*.db
+Desktop.ini
+.DS_Store
