@@ -7,6 +7,8 @@ It uses [`RegExp.toAutomaton`](http://www.brics.dk/automaton/doc/dk/brics/automa
 and [`Automaton.equals`](http://www.brics.dk/automaton/doc/dk/brics/automaton/Automaton.html#equals-java.lang.Object-)
 from the [`dk.brics.automaton`](http://www.brics.dk/automaton/) library to do this.
 
+Regular expression syntax: <http://www.brics.dk/automaton/doc/dk/brics/automaton/RegExp.html>.
+
 ### Build instructions
 
 * Install [Apache Maven](https://maven.apache.org/).
