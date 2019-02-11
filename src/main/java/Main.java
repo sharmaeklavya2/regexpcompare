@@ -15,8 +15,9 @@ public class Main {
 
     public static void main(String args[]) {
         parse_args(args);
-        Automaton a1 = new RegExp(regexp1).toAutomaton();
-        Automaton a2 = new RegExp(regexp2).toAutomaton();
+        int flags = RegExp.COMPLEMENT | RegExp.INTERSECTION;
+        Automaton a1 = new RegExp(regexp1, flags).toAutomaton();
+        Automaton a2 = new RegExp(regexp2, flags).toAutomaton();
         System.out.println(a1.equals(a2));
     }
 }
